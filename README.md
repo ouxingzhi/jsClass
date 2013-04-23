@@ -5,9 +5,10 @@ javascript 类体系
 借鉴了prototype的思路，进行了简化。
 
 使用方法如下：
+<pre>
 //定义ClsA
 var ClsA  = new Class({
-  initialize:function(){
+	initialize:function(){
 		alert('ClsA.initialize');
 	},
 	show:function(){
@@ -43,3 +44,4 @@ var c = new ClsC();
 c.show();
 //判断对象c是不是ClsA的实例
 alert(c instanceof ClsA); //true
+</pre>
